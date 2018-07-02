@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TextFields</string>
+    <string name="design">TextInput Layout Design</string>
+    <string name="base">Input Types</string>
+    <string name="filled">Material Text Fields Filled Box</string>
+    <string name="filled_dense">Material Text Field Filled Box Dense</string>
+    <string name="outlined">Material Text Field Outline Box</string>
+    <string name="outlined_dense">Material Text Field Outline Box Dense</string>
+    <string name="input_type">Input Type</string>
+    <string name="username">Username:</string>
+    <string name="number">Enter an age:</string>
+    <string name="date">Enter a date:</string>
+    <string name="phone">Enter a phone number:</string>
+    <string name="email">Enter an email address:</string>
+    <string name="password">Enter a password:</string>
+    <string name="time">Enter a time:</string>
+    <string name="date_format">MM/dd/yy</string>
+    <string name="required">*Required</string>
+    <string name="submit">Submit</string>
+    <string name="helper">Helper</string>
+    <string name="designDefault">Default Design Text Fields</string>
+    <string name="baseDefault">Default Base Text Field</string>
+    <string name="filledXmlDefault">Default filled</string>
+    <string name="filledxml">Custom filled</string>
+    <string name="filledDenseDefault">Filled dense default</string>
+    <string name="filledDense">Filled dense</string>
+    <string name="outlineXmlDefault">Default outline</string>
+    <string name="outlinexml">Custom outline</string>
+    <string name="outlineDenseDefault">Outline dense default</string>
+    <string name="outlineDense">Outline dense</string>
+</resources>

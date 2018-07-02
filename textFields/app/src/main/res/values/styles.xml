@@ -1,0 +1,130 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/colorSecondary</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="cornerRadius">8dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:elevation">16dp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="BaseTextField" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomLeft">16dp</item>
+        <item name="boxCornerRadiusTopLeft">16dp</item>
+        <item name="boxCornerRadiusBottomRight">16dp</item>
+        <item name="boxCornerRadiusTopRight">16dp</item>
+        <item name="boxStrokeColor">@color/blue</item>
+        <item name="boxPaddingLeft">24dp</item>
+        <item name="boxPaddingRight">24dp</item>
+        <item name="boxCollapsedPaddingBottom">60dp</item>
+        <item name="boxExpandedPaddingBottom">32dp</item>
+    </style>
+
+    <style name="BaseTextField2" parent="Base.Widget.MaterialComponents.TextInputLayout">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomLeft">16dp</item>
+        <item name="boxCornerRadiusTopLeft">16dp</item>
+        <item name="boxCornerRadiusBottomRight">16dp</item>
+        <item name="boxCornerRadiusTopRight">16dp</item>
+        <item name="boxPaddingLeft">24dp</item>
+        <item name="boxPaddingRight">24dp</item>
+        <item name="boxCollapsedPaddingBottom">32dp</item>
+        <item name="boxExpandedPaddingBottom">32dp</item>
+        <item name="boxCollapsedPaddingTop">12dp</item>
+        <item name="boxExpandedPaddingTop">32dp</item>
+        <item name="boxStrokeColor">@color/blue</item>
+    </style>
+
+
+    <style name="error" parent="TextAppearance.Design.Error">
+        <item name="android:textColor">@color/red</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="outlineErrorCustom" parent="Widget.MaterialComponents.TextInputLayout.OutlineBox">
+        <item name="errorTextAppearance">@style/error</item>
+    </style>
+
+    <style name="helper" parent="TextAppearance.Design.HelperText">
+        <item name="android:textColor">@color/green</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="counter" parent="TextAppearance.Design.Counter">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/orange</item>
+    </style>
+
+    <style name="counterOverflow" parent="TextAppearance.Design.Counter.Overflow">
+        <item name="android:textColor">@color/yellow</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="hint" parent="TextAppearance.Design.Hint">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/blue</item>
+    </style>
+
+    <style name="designTextField" parent="Widget.Design.TextInputLayout">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="errorTextAppearance">@style/error</item>
+        <item name="counterOverflowTextAppearance">@style/counterOverflow</item>
+        <item name="helperTextTextAppearance">@style/helper</item>
+        <item name="counterTextAppearance">@style/counter</item>
+        <item name="passwordToggleContentDescription">@string/password</item>
+        <item name="hintTextAppearance">@style/hint</item>
+        <item name="passwordToggleDrawable">@drawable/ic_beach_access_black_24dp</item>
+        <item name="passwordToggleTint">@color/brown</item>
+    </style>
+
+
+    <style name="FilledBoxTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxCornerRadiusBottomLeft">24dp</item>
+        <item name="boxCornerRadiusBottomRight">24dp</item>
+        <item name="boxCollapsedPaddingTop">30dp</item>
+        <item name="boxCollapsedPaddingBottom">25dp</item>
+        <item name="boxExpandedPaddingTop">28dp</item>
+        <item name="boxExpandedPaddingBottom">5dp</item>
+        <item name="helperTextTextAppearance">@style/helper</item>
+        <item name="hintTextAppearance">@style/hint</item>
+        <item name="counterTextAppearance">@style/counter</item>
+    </style>
+
+    <style name="FilledBoxDenseTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="boxCollapsedPaddingTop">48dp</item>
+        <item name="boxCollapsedPaddingBottom">0dp</item>
+
+    </style>
+
+    <style name="FilledDenseText" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
+        <item name="boxExpandedPaddingTop">48dp</item>
+        <item name="boxExpandedPaddingBottom">0dp</item>
+    </style>
+
+    <style name="OutlineBoxTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlineBox">
+       <item name="boxStrokeColor">@color/orange</item>
+    </style>
+
+    <style name="OutlineBoxDenseTextField" parent="Widget.MaterialComponents.TextInputLayout.OutlineBox.Dense">
+        <item name="boxCollapsedPaddingBottom">0dp</item>
+        <item name="boxCollapsedPaddingTop">75dp</item>
+    </style>
+
+    <style name="OutlineBoxDenseTextField2" parent="Widget.MaterialComponents.TextInputLayout.OutlineBox.Dense">
+        <item name="boxExpandedPaddingBottom">48dp</item>
+        <item name="boxExpandedPaddingTop">0dp</item>
+    </style>
+
+</resources>
