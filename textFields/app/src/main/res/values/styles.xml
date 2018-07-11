@@ -105,7 +105,6 @@
     <style name="FilledBoxDenseTextField" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">
         <item name="boxCollapsedPaddingTop">48dp</item>
         <item name="boxCollapsedPaddingBottom">0dp</item>
-
     </style>
 
     <style name="FilledDenseText" parent="Widget.MaterialComponents.TextInputLayout.FilledBox.Dense">

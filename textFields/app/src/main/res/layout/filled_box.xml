@@ -22,8 +22,6 @@
             android:layout_height="60dp"
             android:inputType="text"/>
 
-
-
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
