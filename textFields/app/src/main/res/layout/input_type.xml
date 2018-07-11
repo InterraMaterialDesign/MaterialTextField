@@ -29,6 +29,8 @@
        android:layout_height="wrap_content"
        android:inputType="text"
        android:singleLine="true"
+       android:shadowDx="50"
+       android:shadowDy="50"
        android:hint="@string/username"
        android:id="@+id/editText1"
        android:imeOptions="actionNext"
